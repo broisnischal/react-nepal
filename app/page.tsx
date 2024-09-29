@@ -55,7 +55,7 @@ export default function ReactNepal() {
 
   return (
     <div className="w-full items-center flex flex-col min-h-screen">
-      <header className="sticky items-center justify-center w-full bg-white/70 border-b backdrop-blur-lg m-auto top-0 z-50 ">
+      <header className=" items-center justify-center w-full m-auto top-0 z-50 ">
         <div className="flex  justify-center h-14 items-center">
           <div className="mr-4 hidden md:flex">
             <Link className="mr-6 flex items-center space-x-2" href="/">
@@ -94,7 +94,7 @@ export default function ReactNepal() {
         </div>
       </header>
       <section
-        className=" py-12 md:py-24 lg:py-32 xl:py-4 xl:h-screen space-y-10 bg-no-repeat h-full w-full bg-center bg-cover"
+        className=" py-12 md:py-24 lg:py-32 xl:py-4 xl:min-h-[50vh] flex items-center justify-center space-y-10 bg-no-repeat h-full w-full bg-center bg-cover"
         //  className="flex flex-col items-start space-y-4 bg-no-repeat bg-cover h-full w-full bg-center bg-cover"
         style={{
           backgroundImage: `url(https://images.pexels.com/photos/1531660/pexels-photo-1531660.jpeg?cs=srgb&dl=pexels-souvenirpixels-1531660.jpg&fm=jpg)`,
